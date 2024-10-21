@@ -13,3 +13,74 @@
     font-family: 'Miama', sans-serif;
                                                 
 }
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.container{
+    max-width:932px;
+    margin:0px auto;
+}
+
+.primary-btn{
+    background-color: #E6533C;
+    padding:5px 15px;
+    font-size:.65rem;
+    color:white;
+    border-radius: 15px;
+    border:none
+   
+
+}
+
+/* nav related style */
+header{
+    background-image:linear-gradient(180deg,#111,#111111c4) ;
+}
+
+.hambarge{
+    display: none;
+}
+.nav-container{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px
+}
+
+.nav-title{
+    color: #E6533C;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.nav-title-con{
+    max-width:50%;
+}
+.nav-menu{
+    border:2px solid rgba(255, 255, 255, 0.087);
+  
+    border-radius:25px;
+    
+    max-width:50%;
+    
+   
+
+}
+.nav-menu a{
+    color:white;
+    margin:10px 0px;
+    text-decoration: none;
+    font-size:.65rem;
+
+    padding:3px 15px 3px 2px;
+}
+
+.nav-menu span{
+    padding-left:1px;
+}
