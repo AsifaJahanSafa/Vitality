@@ -233,12 +233,13 @@ header{
     padding-top:50px
 }
 
-.habit-title{
+.habit-title,.our-team-title{
     text-align: center;
-    font-size:2rem;
+    font-size:30px;
+    color: white;
 }
 
-.habit-des{
+.habit-des,.our-team-des{
     font-size: 12px;
     font-weight: 500;
     text-align: center;
@@ -342,3 +343,50 @@ header{
     border-radius: 5px;
 }
 
+/* <!-- meet-our-team-section --> */
+.our-team-con{
+    margin-bottom: 70px;
+}
+.our-team-photo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    padding:20px;
+    background-color:rgba(91, 87, 87, 0.512);
+    border-radius: 8px;
+    opacity: .65;
+   
+}
+
+.team-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+   
+}
+
+.team-photo{
+    position: relative;
+}
+
+
+.tean-info{
+    position: absolute;
+    left:10%;
+    top:80% ;
+    bottom:20%;
+    color:white;
+}
+
+.team-photo-title{
+    font-size: 16px;
+    font-weight:900;
+    color:white
+}
+
+.team-photo p{
+    font-size: 10px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.716) ;
+}

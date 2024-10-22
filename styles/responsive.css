@@ -122,10 +122,16 @@
         justify-items: center
      }
 
+     .habit-title,.our-team-title{
+        text-align: center;
+        font-size:20px;
+        color: white;
+    }
+    
      /* run section */
     .run-container{
         flex-direction: column;
-         margin:0px 10px;
+         margin:0px 10px 70px;
         justify-content:center;
        
     }
@@ -153,8 +159,46 @@
         width:100%;
     }
     
- 
+ /* <!-- meet-our-team-section --> */
+ .our-team-photo{
+    display: grid;
+    grid-template-columns:1fr;
+    gap:20px;
+    padding:20px;
+    background-color:rgba(91, 87, 87, 0.512);
+    border-radius: 8px;
+   
+}
+.team-photo-title{
+    font-size: 18px;
+    font-weight: 700;
+}
 
+.team-photo p{
+    font-size:12px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.42) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 }
 
 
@@ -263,7 +307,7 @@
 
     }
 
-
+/* <!-- meet-our-team-section --> */
 
     
 }
