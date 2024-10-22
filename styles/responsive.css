@@ -167,6 +167,7 @@
     padding:20px;
     background-color:rgba(91, 87, 87, 0.512);
     border-radius: 8px;
+    margin: 0px 10px
    
 }
 .team-photo-title{
@@ -206,8 +207,42 @@
     
 }
 
+/* BMI Calculator */
+
+.BMI-count{
+       
+    flex-direction:column;
+    justify-content:center;
+    padding:25px;
+    border-radius:10px;
+    margin:0px 20px
+}
+
+.table-con{
+    width:100%;
+}
+.form-con{
+    width:100%;
+    
+}
 
 
+.BMI-title{
+   margin-top:50px;
+}
+.BMI-des{
+    
+ 
+   text-align: left;
+ 
+  
+}
+
+form{
+    
+    grid-template-columns:1fr;
+    gap:10px
+}
 
 
 
@@ -351,4 +386,43 @@
     .footer-left-con{
         grid-column:1/span 2;
     }
+
+/* BMI Calculator */
+    .BMI-count{
+       
+        flex-direction:column;
+        justify-content:center;
+        padding:20px;
+        border-radius:10px;
+        
+    }
+
+    .table-con{
+        width:100%;
+    }
+    .form-con{
+        width:100%;
+        
+    }
+
+
+    .BMI-title{
+       margin-top:50px;
+    }
+    .BMI-des{
+        
+     
+       text-align: left;
+       
+      
+    }
+
+    form{
+        
+        grid-template-columns:1fr;
+        gap:10px
+    }
+    
+   
+    
 }
