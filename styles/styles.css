@@ -65,6 +65,7 @@ header{
     background-image:linear-gradient(10deg,#111,#111111de) ;
 }
 
+
 .hambarge{
     display: none;
 }
@@ -344,9 +345,7 @@ header{
 }
 
 /* <!-- meet-our-team-section --> */
-.our-team-con{
-    margin-bottom: 70px;
-}
+
 .our-team-photo{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -389,4 +388,83 @@ header{
     font-size: 10px;
     font-weight: 500;
     color:rgba(255, 255, 255, 0.716) ;
+}
+
+/* footer-con */
+
+footer{
+   background-color:#000;
+   
+}
+
+.footer-con-holder{
+    padding-top: 70px;
+    
+}
+
+.footer-left-con,.footer-center-con{
+    color:white
+}
+
+.footer-title{
+    font-size:40px;
+    font-weight: 700;
+    color:#E6533C;
+    margin-bottom:20px;
+}
+
+
+
+.footer-con{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap:200px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+    padding-bottom: 20px;
+    
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content:center;
+   
+}
+.footer-menu a{
+    color:rgba(255, 255, 255, 0.716) ;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom:8px;
+    font-weight: 500;
+}
+
+.footer-center-title {
+   color:white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+
+.footer-des{
+    color:rgba(255, 255, 255, 0.716) ;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    
+    
+}
+
+.copy-right{
+    
+    color:white;
+
+}
+
+.copy-right p{
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:white;
+
 }
