@@ -236,8 +236,18 @@
    text-align: left;
  
   
+
+
 }
 
+form input,.Gender{
+    padding:8px ;
+   
+}
+.activity-factor,.Gender{
+    
+    padding:8px ;
+}
 form{
     
     grid-template-columns:1fr;
