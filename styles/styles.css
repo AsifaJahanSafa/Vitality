@@ -721,7 +721,7 @@ form input,.Gender{
     background-color: grey;
     color:white;
     border:none;
-    transition:all .3s;
+    transition: .4s all;
     cursor: pointer;
 }
 
